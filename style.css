@@ -40,7 +40,7 @@ body.body_menu {
     height: auto;
 }
 
-.btn_opcoes {
+.btn_opcoes, .btn_voltar {
     font-size: 22px;
     font-family: "Pixelify Sans", sans-serif;
     margin: 3%;
@@ -58,7 +58,7 @@ body.body_menu {
         8px 8px 0 rgba(0,0,0,0.3);
 }
 
-.btn_opcoes:hover{
+.btn_opcoes:hover, .btn_voltar:hover{
     background-color: rgb(202, 149, 13);
 }
 
