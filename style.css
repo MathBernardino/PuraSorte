@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit&family=Pixelify+Sans:wght@400..700&family=Qahiri&display=swap');
+
+
+body.body_menu {
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url(img/FundoMenu.png);
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.titulo {
+    font-size: 100px;
+
+}
+
+.opcoes{   
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
