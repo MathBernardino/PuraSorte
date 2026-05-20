@@ -116,3 +116,29 @@ body.body_menu {
         0 4px 0 #000,
         8px 8px 0 rgba(0,0,0,0.3);
 }
+
+.body_devs {
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    background-image: url(img/FundoMenu.png);
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.devs_fotos {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0,0,0,0.3);
+}
