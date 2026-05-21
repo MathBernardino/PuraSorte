@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: url(img/imgmainfundo.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-main {
+    font-size: 400%;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.container-conteudo {
+    display: flex;
+    margin-top: 10vh;
+    width: 90vw;
+    background-color: goldenrod;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.div-select {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    margin: 1%;
+    padding: 2%;
+    height: 200px;
+    background-color: #2B2D42;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.div-select-texto {
+    font-size: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.select-cavalo {
+    font-family: "Pixelify Sans", sans-serif;
+    width: 70%;
+    height: 20%;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+    font-size: 120%;
+}
+
+.div-aposta {
+    display: flex;
+    background-color: #2f0b84;
+    width: 70%;
+    margin: 1%;
+    padding: 2%;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.valor-aposta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2D42;
+    width: 50%;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+    height: 90%;
+    margin: 1%;
+}
+
+.div-apostar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 0, 0);
+    width: 50%;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+    height: 90%;
+    margin: 1%;
+    padding: 2%;
+}
+
+.div-resposta {}
+
+.titulo-valor-aposta {
+    font-size: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.input-aposta {
+    font-family: "Pixelify Sans", sans-serif;
+    width: 70%;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+    font-size: 120%;
+    padding: 1%;
+}
+
+.botao-valor-aposta {
+    font-family: "Pixelify Sans", sans-serif;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+    font-size: 120%;
+    padding: 1%;
+    margin: 2%;
+}
+
+.botao-apostar {
+    font-family: "Pixelify Sans", sans-serif;
+    box-shadow:
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000,
+        8px 8px 0 rgba(0, 0, 0, 0.3);
+    font-size: 120%;
+    padding: 1%;
+    margin: 3%;
+}
+
+.div-resposta {
+    font-family: "Pixelify Sans", sans-serif;
+}
